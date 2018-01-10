@@ -220,7 +220,7 @@ class EtherScanService : LifecycleService() {
         val baseURL = networkDefinition.getBlockExplorer().baseAPIURL.letIf(httpFallback) {
             replace("https://", "http://") // :-( https://github.com/walleth/walleth/issues/134 )
         }
-        val urlString = "$baseURL/api?$requestString&apikey=$" + BuildConfig.ETHERSCAN_APIKEY
+        val urlString = "$baseURL/api.php?$requestString&apikey=$" + BuildConfig.ETHERSCAN_APIKEY
         val url = Request.Builder().url(urlString).build()
         val newCall: Call = okHttpClient.newCall(url)
 

@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">哈友区块链</string>
+    <string name="welcome">欢迎, \n\n 当前您没有帐户-所以为您创建了一个。注意-这一个是不安全的，没有密码, 只是方便使用。所以只使用它作为一个临时账户。</string>
+    <string name="request_transaction_subtitle"> 接受资金 </string>
+    <string name="edit_account_subtitle"> 编辑帐户 </string>
+    <string name="switch_account_subtitle"> 切换帐户 </string>
+    <string name="address_book_subtitle"> 通讯簿 </string>
+    <string name="transaction_subtitle"> 交易记录详细信息 </string>
+
+    <string name="scan_instructions"> 在框内扫描 二维码  </string>
+    <string name="no_camera_permission"> 哈友区块链钱包 没有访问照相机的权限. </string>
+
+    <string name="request_subtitle"> 请求 </string>
+    <string name="drawer_open"> 打开 </string>
+    <string name="drawer_close"> 关闭 </string>
+    <string name="info_text"><![CDATA[
+这是一个本地的 Android <a href="http://hayoou.com/eth"> 哈友社区区块链 </a> 轻客户端钱包。
+<br/> <br/>
+它在 <a href="https://github.com/ethereum/go-ethereum"> go ethereum </a> 项目中使用 "in 进程" 节点作为 ethereum 的轻型客户端。
+<br/> <br/>
+感谢 <a href="https://github.com/karalabe"> karalabe </a>, <a href="https://github.com/fjl">-fjl-</a>, <a href="https://github.com/zsfelfoldi"> zsfelfoldi </a> 和 <a href="https://github.com/obscuren"> obscuren </a> 在这里-真棒工作!
+<br/> <br/>
+此 版本 使用 <a href="http://hayoou.com/ethwallet"> hayoou.com/ethwallet </a> 区块链。
+<br/> <br/>
+它使用的是轻型客户端, 而不是集中化的预配置节点。
+为了获取引用的汇率, 我们正在查询 <a href="https://etcex.hayoou.com"> etcex.hayoou.com </> , 我们使用 <a href="https://ethscan.hayoou.com"> ethscan.hayoou.com </a> 服务。
+<br/> <br/>
+漂亮的图标来自 <a href="https://cookicons.co"> cookicons </a>。
+<br/> <br/>
+注意, 这是一个初级版本, 将有错误。
+<br/> <br/>
+您可以在 github 上找到源 <a href="https://github.com/youkpan/hayoou_ETH_android"> hayoou_ETH_android </a>
+]]> </string>
+    <string name="qr_code"> 二维码 </string>
+    <string name="text_extract_funds"> 您可以使用此 二维码 请求支付: </string>
+
+    <string name="import_json_subtitle"> 导入密钥 </string>
+    <string name="export_account_subtitle"> 导出密钥 </string>
+    <string name="request_hint_test_net"><![CDATA[
+您可以与社交媒体上的标签 <a href="https://twitter.com/search？q=%23walleth"> #walleth </a> 共享此地址以获得测试以太。
+<br/> <a href="http://ligi.de"> ligi </a> 将监视 twitter, 并在启动 <a href="http://www.rinkeby.io"> rinkeby </a> 之后收集了一些测试以太。
+<br/> 您还可以通过使用此标签的用户所看到的测试以太, 并通过这种方式进行交易。
+]]>
+</string>
+
+    <string name="request_hint_no_test_net"><![CDATA[ 没有测试网络。]]>
+</string>
+    <array name="day_night">
+        <item> 天 </item>
+        <item> 晚上 </item>
+        <item> 自动 </item>
+    </array>
+
+    <array name="scan_hex_choices">
+        <item> 添加到地址簿 </item>
+        <item> 转账 </item>
+        <item> 添加标记定义 </item>
+    </array>
+
+
+    <string name="day_or_night"> 白天或夜间模式 </string>
+    <string name="day_or_night_summary"> 亮和的界面 </string>
+    <string name="dialog_title_success"> 成功 </string>
+    <string name="dialog_title_error"> 错误 </string>
+
+    <string name="select_fiat_reference"> 选择 (货币) 参考 </string>
+    <string name="select_token"> 选择Token（代币） </string>
+    <string name="create_account_subtitle"> 创建帐户 </string>
+    <string name="open_in_etherscan"> 在 hayoouscan 中打开 </string>
+    <string name="empty_view"> 此帐户只是为您创建的, 因此它没有事务/值, 但现在您可以按绿色按钮将值发送到此帐户或导入现有帐户您可以在左边的抽屉中找到类似的功能</string>
+    <string name="transaction_to_label"> 对: </string>
+    <string name="transaction_from_label"> 来自: </string>
+    <string name="alert_problem_title"> 问题 </string>
+    <string name="address_not_valid"> 地址无效 </string>
+    <string name="input_hint_address"> 地址 </string>
+    <string name="input_hint_notes"> 备注 </string>
+    <string name="input_hint_account_name"> 帐户名 </string>
+    <string name="please_enter_name"> 请输入名称 </string>
+    <string name="share"> 共享 </string>
+    <string name="print"> 打印 </string>
+    <string name="paper_wallet_title"> WALLΞTH 纸 哈友 钱包 </string>
+    <string name="paper_wallet_text"> 这是您的 hayoou 帐户的私钥-安全地存储它并记住相应的密码. </string>
+    <string name="imported_key_alert_message"> 导入的%s </string>
+    <string name="imported_key_default_entry_name"> 导入 </string>
+    <string name="imported_key_entry_note"> 在%s 上导入 </string>
+    <string name="key_input_key_hint"> 密匙 </string>
+    <string name="key_import_password_input_hint"> 密码 </string>
+    <string name="key_import_account_name_input_hint"> 帐户名 </string>
+    <string name="scan_not_interpreted_error_message"> 无法解释扫描的目的。当前仅支持: ERC67、地址、ECDSA 键、JSON (UTC) 键 </string>
+    <string name="select_action_messagebox_title"> 选择操作 </string>
+    <string name="saf_activity_not_found_problem"> 没有发现处理 ACTION_OPEN_DOCUMENT 的应用程序-请将此情况报告为您的电话/ROM 提供商的问题 </string>
+    <string name="transaction_to_use_hint"> 要使用的传输 </string>
+    <string name="no_funds_after_fee"> 给定费用后资金清空 </string>
+    <string name="nav_drawer_switch_network"> 交换机网络 </string>
+    <string name="nav_drawer_edit_account"> 编辑帐户 </string>
+    <string name="nav_drawer_switch_account"> 切换帐户 </string>
+    <string name="nav_drawer_export_key"> 导出密钥 </string>
+    <string name="nav_drawer_import_key"> 导入密钥 </string>
+    <string name="nav_drawer_settings"> 设置 </string>
+    <string name="nonce_invalid"> 我们需要一个随机数 </string>
+    <string name="connect_trezor_message"><![CDATA[连接您的 TREZOR. <br/>如果没有: <a href=\"https://shop.trezor.io？a=walleth.org\"> 获取一个 </a>]]> </string>
+    <string name="activity_subtitle_get_trezor_address"> 获取 trezor 地址 </string>
+    <string name="activity_subtitle_sign_with_trezor"> 使用 trezor 签名 </string>
+    <string name="signed_rlp_header_text"> 签名的 rlp </string>
+    <string name="unsigned_rlp_header_text"> 使用具有密钥的设备扫描此项: </string>
+    <string name="snackbar_after_address_copy"> 复制到剪贴板的地址 </string>
+    <string name="ethereum_address"> 哈友区块链 地址 </string>
+    <string name="onboarding_warning_message"> 请注意, 这是应用程序是初级版本。请不要导入重要帐户密匙和大量的存储资金，查看你的其他账户金额是很安全的，仅添加地址即可，无需导入密匙。 </string>
+    <string name="onboarding_warning_title"> 特殊意识 </string>
+    <string name="onboard_showcase_message"> 请单击箭头以资助此帐户 </string>
+    <string name="deleted_account_snack"> 已删除帐户 </string>
+    <string name="deleted_token_snack"> 已删除标记%s </string>
+    <string name="copied_to_clipboard"> 复制到剪贴板 </string>
+    <string name="clipboard_copy_name"> 哈友币 地址 </string>
+    <string name="undo"> 撤消 </string>
+    <string name="undelete_all"> 全部删除 </string>
+    <string name="search"> 搜索 </string>
+    <string name="decimals_in_list"> 小数:%s </string>
+    <string name="relay_transaction"> 中继传输 </string>
+    <string name="input_not_valid_title"> 输入时出现问题 </string>
+    <string name="input_not_valid_message"> 输入无效。原因:%s </string>
+    <string name="no_address_selected"> 未选定地址 </string>
+    <string name="create_transaction_subtitle"> 添加传输 </string>
+    <string name="create_tx_error_address_must_be_specified"> 地址必须指定 </string>
+    <string name="create_tx_error_amount_must_be_specified"> 金额必须指定 </string>
+    <string name="create_tx_error_not_enough_funds"> 没有足够的资金用于此交易, 且具有给定的金额加费用 </string>
+    <string name="create_tx_error_invalid_erc67_msg">%s 无效 ERC67 </string>
+    <string name="create_tx_error_invalid_erc67_title"> 无效的 ERC67 </string>
+    <string name="create_tx_error_invalid_address">%s 不是有效的 哈友币 地址 </string>
+    <string name="default_account_name"> 默认帐户 </string>
+    <string name="new_address_note"> 当 哈友区块链 第一次启动时为您创建了此帐户 </string>
+    <string name="request_funds_add_value"> 添加值 </string>
+    <string name="request_funds_value_hint"> 值 </string>
+    <string name="trezor_custom_derivation_path"> 自定义 </string>
+    <string name="trezor_account">%d. 帐户 </string>
+    <string name="trezor_select_address"> 选择地址 </string>
+    <string name="trezor_no_valid_input"> 无有效输入 </string>
+    <string name="geth_service_notification_title"> 哈友区块链 geth </string>
+    <string name="geth_service_notification_content_text"> 运行在%1$s 上的轻型客户端 </string>
+    <string name="geth_service_notification_channel_description"> 查看和停止 geth 服务 </string>
+    <string name="no_key_for_sending_account"> 没有用于发送帐户的密钥 </string>
+    <string name="create_transation_to_label"> 对: </string>
+    <string name="create_tx_please_specify_amount"> 请指定金额 </string>
+    <string name="create_tx_show_advanced_options"> 显示高级选项 </string>
+    <string name="create_tx_gas_price"> 燃料价格 </string>
+    <string name="create_tx_amount"> 金额: </string>
+    <string name="create_tx_fee"> 费用: </string>
+    <string name="create_tx_gas_limit"> 燃料限制 </string>
+    <string name="create_tx_nonce"> 仿 </string>
+    <string name="settings_currently"> 当前:%s </string>
+    <string name="settings_please_wait"> 请稍候 </string>
+    <string name="trezor_please_enter_your_passphrase"> 请输入您的密码 </string>
+    <string name="trezor_reported_different_address"> trezor 报告了不同的源地址. %1$s 不是 %2$s </string>
+    <string name="select_reference_activity_select_reference"> 选择引用 </string>
+    <string name="select_reference_activity_add_reference"> 添加引用 </string>
+    <string name="select_token_activity_select_token"> 选择令牌 </string>
+    <string name="switch_network_activity_adding_not_yet_supported"> 添加尚未实现的新网络 </string>
+    <string name="precise_amount_alert_title"> 精确金额 </string>
+    <string name="create_token_activity_subtitle"> 创建令牌 </string>
+    <string name="create_token_activity_error_invalid_amount_of_decimals"> 请输入有效的小数数量 </string>
+    <string name="create_token_activity_error_invalid_name"> 请输入有效名称 </string>
+    <string name="create_token_activity_error_invalid_address"> 请输入有效地址 </string>
+    <string name="create_tx_no_address"> 地址未指定 </string>
+    <string name="main_activity_no_data"> 无数据 </string>
+    <string name="main_activity_block"> 区块数： %d </string>
+    <string name="starred_only"> 仅星号 </string>
+    <string name="scan"> 扫描 </string>
+    <string name="scan_disabled"> 扫描已禁用 </string>
+    <string name="network_subtitle"> 网络 </string>
+    <string name="network_details"> 网络详细信息 </string>
+    <string name="network_stats"> 网络统计 </string>
+    <string name="wrong_network"> 错误的网络 </string>
+    <string name="please_switch_network"> 请切换网络 </string>
+    <string name="info_activity_subtitle"> 版本%s </string>
+    <string name="trezor_please_enter_your_pin"> 请输入您的 特征码 PIN </string>
+</resources>

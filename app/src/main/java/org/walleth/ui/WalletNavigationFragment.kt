@@ -74,7 +74,7 @@ class WalletNavigationFragment : Fragment() {
 
         networkDefinitionProvider.observe(this, Observer {
             val networkName = networkDefinitionProvider.value!!.getNetworkName()
-            navigationView.menu.findItem(R.id.menu_switch_network).title = "Network: $networkName (switch)"
+            navigationView.menu.findItem(R.id.menu_switch_network).title = "网络: $networkName (switch)"
         })
 
     }

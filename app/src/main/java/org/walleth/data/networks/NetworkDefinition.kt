@@ -3,7 +3,7 @@ package org.walleth.data.networks
 import org.kethereum.model.ChainDefinition
 import org.walleth.data.blockexplorer.EtherscanBlockExplorer
 
-fun NetworkDefinition.isNoTestNet() = chain.id == 1L
+fun NetworkDefinition.isNoTestNet() = chain.id == 5767778797L
 
 interface NetworkDefinition {
     fun getNetworkName(): String
